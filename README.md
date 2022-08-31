@@ -15,7 +15,7 @@ $ git clone --recurse-submodules git@github.com:NietoSkunk/FlippyControl.git
 
 ## Production notes
 
-* None yet
+* Only one MCU should be connected at a time.
 
 ## Data Harness
 
@@ -25,6 +25,6 @@ $ git clone --recurse-submodules git@github.com:NietoSkunk/FlippyControl.git
 | MOSI | 3 | 4 | PULSE_ENABLE |
 | LATCH | 5 | 6 | COL_PULSE_N |
 | CLK | 7 | 8 | ROW_PULSE_N |
-| RESET | 9 | 10 | I2C SCL |
-| N/C | 11 | 12 | I2C SDA |
+| RESET | 9 | 10 | LED PWM |
+| 5V Return | 11 | 12 | GND |
 
