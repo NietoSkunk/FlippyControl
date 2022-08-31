@@ -1,15 +1,24 @@
 Designator,Val,Package,Mid X,Mid Y,Rotation,Layer
-D1,PMEG60T10ELR,D_SOD-123,156.098,-118.965,0.0,top
-J3,Data Harness Out,IDC-Header_2x06_P2.54mm_Vertical,114.6455,-97.615,0.0,top
-J4,USB4085-GF-A,USB_C_Receptacle_GCT_USB4085,171.673,-101.84,90.0,top
-JP1,Vcc-Select,PinHeader_1x03_P2.54mm_Vertical,150.598,-119.065,-90.0,top
+D1,PMEG60T10ELR,D_SOD-123,130.498,-111.715,-90.0,top
+J3,Data Harness Out,IDC-Header_2x06_P2.54mm_Vertical,114.6455,-96.365,0.0,top
+J4,USB4085-GF-A,USB_C_Receptacle_GCT_USB4085,120.123,-117.54,-90.0,top
+J5,RasPI-40Pin,IDC-Header_2x20_P2.54mm_Vertical,126.568,-100.2175,90.0,top
+J6,WP,PinHeader_1x02_P2.54mm_Vertical,127.598,-86.54,180.0,top
+JP1,Vcc-Select,PinHeader_1x03_P2.54mm_Vertical,129.673,-106.34,-90.0,top
+JP2,5V_RET,PinHeader_1x02_P2.54mm_Vertical,124.648,-111.165,90.0,top
 P1,Power,Socket_Strip_Arduino_1x08,138.938,-123.825,0.0,top
 P2,Analog,Socket_Strip_Arduino_1x06,161.798,-123.825,0.0,top
 P3,Digital,Socket_Strip_Arduino_1x10,129.794,-75.565,0.0,top
 P4,Digital,Socket_Strip_Arduino_1x08,156.718,-75.565,0.0,top
 P5,CONN_01X01,Arduino_1pin,124.968,-123.825,0.0,top
 P7,CONN_01X01,Arduino_1pin,126.238,-75.565,0.0,top
-R1,5.1k,R_0603_1608Metric,168.498,-100.165,180.0,top
-R2,5.1k,R_0603_1608Metric,168.498,-97.565,180.0,top
+R1,5.1k,R_0603_1608Metric,123.298,-118.265,0.0,top
+R2,5.1k,R_0603_1608Metric,123.298,-119.965,0.0,top
+R3,DNP,R_0603_1608Metric,124.348,-83.315,90.0,top
+R4,10K,R_0603_1608Metric,122.498,-83.315,-90.0,top
+R5,5.1k,R_0603_1608Metric,123.198,-85.915,180.0,top
+R6,5.1k,R_0603_1608Metric,123.198,-87.765,180.0,top
+SW1,RESET,SW_SPST_PTS645,117.948,-77.565,0.0,top
 TP7,GND,TestPoint_Keystone_5005-5009_Compact,131.098,-123.065,180.0,top
-U1,ESP32-D1-Mini,ESP32_mini,142.558,-97.465,90.0,top
+U1,ESP32-D1-Mini,ESP32_mini,151.098,-98.865,90.0,top
+U2,CAT24C32,SOIC-8_3.9x4.9mm_P1.27mm,117.698,-84.765,0.0,top
